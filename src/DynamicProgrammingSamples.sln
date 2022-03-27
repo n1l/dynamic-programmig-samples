@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingSamples", "DynamicProgrammingSamples\DynamicProgrammingSamples.csproj", "{A4B7EB0C-F7EC-47B6-B61B-E8C5A7EBB1D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgrammingSamples.Tests", "DynamicProgrammingSamples.Tests\DynamicProgrammingSamples.Tests.csproj", "{EC26AA24-716F-4BDC-B382-2A41CC2CAC71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A4B7EB0C-F7EC-47B6-B61B-E8C5A7EBB1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4B7EB0C-F7EC-47B6-B61B-E8C5A7EBB1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4B7EB0C-F7EC-47B6-B61B-E8C5A7EBB1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC26AA24-716F-4BDC-B382-2A41CC2CAC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC26AA24-716F-4BDC-B382-2A41CC2CAC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC26AA24-716F-4BDC-B382-2A41CC2CAC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC26AA24-716F-4BDC-B382-2A41CC2CAC71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,7 @@ namespace DynamicProgrammingSamples.Memoization
             if (memo.ContainsKey(targetSum)) { return memo[targetSum]; }
             if (targetSum == 0) { return new List<int>(); }
             if (targetSum < 0) { return null; }
-            
+
             foreach (int num in nums)
             {
                 int remainder = targetSum - num;
