@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using DynamicProgrammingSamples.Tabulation;
 using static DynamicProgrammingSamples.Memoization.FibonacciSample;
 using static DynamicProgrammingSamples.Memoization.GridTravalerSample;
 using static DynamicProgrammingSamples.Memoization.CanSumSample;
@@ -9,7 +10,6 @@ using static DynamicProgrammingSamples.Memoization.BestSumSample;
 using static DynamicProgrammingSamples.Memoization.CanConstructSample;
 using static DynamicProgrammingSamples.Memoization.CountConstructSample;
 using static DynamicProgrammingSamples.Memoization.AllConstructSample;
-using System.Runtime.Serialization;
 
 namespace DynamicProgrammingSamples
 {
@@ -84,6 +84,14 @@ namespace DynamicProgrammingSamples
             Console.WriteLine(Print2DList(AllConstruct("skateboard", new[] { "bo", "rd", "ate", "t", "ska", "sk", "boar" })));
             Console.WriteLine(Print2DList(AllConstruct("enterapotentpot", new[] { "a", "p", "ent", "enter", "ot", "o", "t" })));
             Console.WriteLine(Print2DList(AllConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeef", new[] { "e", "ee", "eee", "eeee", "eeeee", "eeeeee" })));
+            Console.WriteLine();
+
+            // -----------------
+
+            Console.WriteLine(FibonacciTabSample.GetFibonacciNumber(6));
+            Console.WriteLine(FibonacciTabSample.GetFibonacciNumber(7));
+            Console.WriteLine(FibonacciTabSample.GetFibonacciNumber(8));
+            Console.WriteLine(FibonacciTabSample.GetFibonacciNumber(50));
             Console.WriteLine();
         }
 
